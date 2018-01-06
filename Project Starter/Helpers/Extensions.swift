@@ -24,11 +24,28 @@ extension UIViewController {
 }
 
 
+
 extension UIApplication {
     var statusBarView: UIView? {
         return value(forKey: "statusBar") as? UIView
     }
 }
+
+
+
+extension UIView {
+    func applyGradient(topColor:UIColor, bottomColor:UIColor) {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame.size = self.frame.size
+        gradientLayer.colors =
+            [topColor.cgColor,bottomColor.withAlphaComponent(1).cgColor]
+        
+        self.layer.addSublayer(gradientLayer)
+    }
+}
+
+
+
 
 
 func topController() -> UIViewController {

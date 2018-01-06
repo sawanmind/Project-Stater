@@ -11,13 +11,6 @@ import UIKit
 
 enum ControllerType {
     case tabBarController
-    case leftDrawer
+    case drawer
 }
-
-//extension {
-//    
-//    
-//    UIApplication.shared.keyWindow?.rootViewController = LoginVC()
-//    
-//}
 
