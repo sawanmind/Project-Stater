@@ -30,6 +30,7 @@
 		441FCEDD1FFCB9690013D2C4 /* UITextField Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FCEDC1FFCB9690013D2C4 /* UITextField Extension.swift */; };
 		441FCEDF1FFCBD780013D2C4 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FCEDE1FFCBD780013D2C4 /* ThemeManager.swift */; };
 		441FCEE11FFCDCDB0013D2C4 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FCEE01FFCDCDB0013D2C4 /* TabBarVC.swift */; };
+		444649DC20033E3800C317D2 /* UICacheableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444649DB20033E3800C317D2 /* UICacheableImageView.swift */; };
 		448BB1231FFCE2590032AE4E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448BB1221FFCE2590032AE4E /* ProfileVC.swift */; };
 		448BB1251FFCE2C20032AE4E /* ControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448BB1241FFCE2C20032AE4E /* ControllerManager.swift */; };
 		8BF0132120008EFB004B59D4 /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0131D20008EFB004B59D4 /* Drawer.swift */; };
@@ -66,6 +67,7 @@
 		441FCEDC1FFCB9690013D2C4 /* UITextField Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField Extension.swift"; sourceTree = "<group>"; };
 		441FCEDE1FFCBD780013D2C4 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		441FCEE01FFCDCDB0013D2C4 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		444649DB20033E3800C317D2 /* UICacheableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICacheableImageView.swift; sourceTree = "<group>"; };
 		448BB1221FFCE2590032AE4E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		448BB1241FFCE2C20032AE4E /* ControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerManager.swift; sourceTree = "<group>"; };
 		8BF0131D20008EFB004B59D4 /* Drawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		441FCEC11FFCB45C0013D2C4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				444649DB20033E3800C317D2 /* UICacheableImageView.swift */,
 				441FCEC21FFCB45C0013D2C4 /* BlurView.swift */,
 				441FCEC31FFCB45C0013D2C4 /* Checkbox.swift */,
 				441FCEC41FFCB45C0013D2C4 /* Extensions.swift */,
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF0132220008EFB004B59D4 /* DrawerCell.swift in Sources */,
+				444649DC20033E3800C317D2 /* UICacheableImageView.swift in Sources */,
 				441FCED51FFCB6C00013D2C4 /* Protocols.swift in Sources */,
 				441FCECB1FFCB45D0013D2C4 /* Checkbox.swift in Sources */,
 				441FCEE11FFCDCDB0013D2C4 /* TabBarVC.swift in Sources */,
